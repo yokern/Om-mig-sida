@@ -1,0 +1,73 @@
+.banner {
+    background-color: red;
+    height: 80px;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    background-image: url(white.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1000px;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.welcome {
+    background-image: url('blue.png');
+    height: 500px;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.buttons {
+    text-align: center ;
+}
+
+.button {
+    display: inline-block;
+    text-align: center;
+    margin: 1px;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: lightskyblue;
+    border-width: 3px;
+    color: black;
+    padding: 10px;
+    background-color: white;
+    transition-duration: 0.4s;
+    width: 250px;
+}
+
+.button:hover {
+    background-color: lightskyblue;
+    color: white;
+}
+
+.button-container {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.button-container li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: inherit;
+}
+
+.biography {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
