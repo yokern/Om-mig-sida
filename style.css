@@ -1,10 +1,12 @@
 .banner {
-    background-color: red;
-    height: 80px;
+    height: 70px;
+    width: 400px;
+    background-color: lightskyblue;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .name {
-    font-weight: bold;
     font-size: 50px;
     text-align: center;
     margin-left: auto;
@@ -16,16 +18,23 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     height: 1000px;
-    font-family: 'Roboto Condensed', sans-serif;
-
+    font-family: 'Yaldevi', sans-serif;
 }
 
 .welcome {
-    background-image: url('blue.png');
-    height: 500px;
+    background-image: url('swag.jpg');
+    height: 600px;
+    width: 1200px;
     font-size: 50px;
     text-align: center;
     padding-top: 40px;
+    margin-top: 60px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: lightskyblue;
+    border-width: 3px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .buttons {
@@ -55,6 +64,7 @@ body {
 .button-container {
     margin: 0;
     padding: 0;
+    margin-top: 70px;
     list-style: none;
 }
 
@@ -66,7 +76,7 @@ a {
     text-decoration: inherit;
 }
 
-.biography {
+.AM {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
