@@ -16,7 +16,7 @@
 body {
     background-image: url(white.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     height: 1000px;
     font-family: 'Yaldevi', sans-serif;
 }
